@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+	</head>
+	<body>
+		<h1><%= title %></h1>
+
+		<button><a href="/new">Create new message</a></button>
+
+		<% messages.forEach((message) => {%>
+		<div class="message-container">
+			<p>Text:<%= message.text %></p>
+			<p>User:<%= message.user %></p>
+			<p>Added:<%= message.added%></p>
+		</div>
+		<%})%>
+		<p id="footer-message">Welcome to <%= title %></p>
+	</body>
+</html>

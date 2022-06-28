@@ -1,0 +1,38 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #00b7ff;
+}
+
+.message-container {
+	margin-top: 2rem;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#footer-message {
+	margin-top: 2rem;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-container label {
+	margin-top: 2rem;
+}
+
+.form-container input {
+	height: 2rem;
+	width: 50%;
+}
+
+.form-container button {
+	justify-content: left;
+	margin-top: 2rem;
+	height: 2rem;
+	width: 50%;
+}
